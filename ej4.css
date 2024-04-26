@@ -1,0 +1,24 @@
+h2{
+    background-color: purple;
+    color:white;
+    width: 200px;
+    clear: both;
+}
+p img.letra{
+    float: left;
+    margin-left:10px;
+}
+
+p img.foto{
+    float: right;
+    margin-right:10px;
+    border: 5px solid purple ;
+    padding: 15px;
+    background-color: #e0e0e0;
+
+}  
+p::first-letter{
+    text-transform: capitalize;/*sila letra es pequeña*/
+    color: purple;
+    font-size: x-large;
+}
