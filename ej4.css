@@ -1,17 +1,4 @@
-
-body{
-    background-color: skyblue;
-}
-p img.letra{
-    transform: rotate(180deg) scale(2,0.5);
-    transition: all 2s;
-}
-p img.foto{
-    filter: grayscale(0.7);
-    border-radius: 50% 50%;
-}
-
-
+body{background-color : lightblue;}
 h2{
     background-color: purple;
     color:white;
