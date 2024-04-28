@@ -1,3 +1,16 @@
+
+body{
+    background-color: yellow;
+}
+p img.letra{
+    transform: rotate(180deg) scale(2,0.5);
+    transition: all 2s;
+}
+p img.foto{
+    filter: grayscale(0.7);
+    border-radius: 50% 50%;
+}
+
 h2{
     background-color: purple;
     color:white;
@@ -6,7 +19,7 @@ h2{
 }
 p img.letra{
     float: left;
-    margin-left:10px;
+    margin-left:30px;
 }
 
 p img.foto{
@@ -17,8 +30,3 @@ p img.foto{
     background-color: #e0e0e0;
 
 }  
-p::first-letter{
-    text-transform: capitalize;/*sila letra es pequeña*/
-    color: purple;
-    font-size: x-large;
-}
